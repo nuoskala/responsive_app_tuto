@@ -32,7 +32,7 @@ function App() {
     },
     {
       link: picSquirel,
-      title: "Squirel",
+      title: "Squirrel",
       description: "Lake Suolijärvi (Tampere, Finland) - 06.12.2023"
     },
     {
