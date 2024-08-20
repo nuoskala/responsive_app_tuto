@@ -1,9 +1,9 @@
 {
+  "homepage": "https://nuoskala.github.io/responsive_app_tuto",
   "name": "responsive",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nuoskala.github.io/responsive_app_tuto/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
