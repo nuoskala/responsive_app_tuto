@@ -2,6 +2,11 @@ import './App.css'
 
 import picRevontulet from '../img/revontulet.png'
 import picSuolijarvi from '../img/IMG_0214.png'
+import picSquirel from '../img/IMG_0115.png'
+import picNorthernLights from  '../img/IMG_0097.png'
+import picRauhaniemiSunset from '../img/IMG_0046.png'
+import picRauhaniemiGull from '../img/IMG_0150.png'
+import picRauhaniemiSunrise from '../img/IMG_0255.png'
 
 function App() {
   
@@ -21,33 +26,33 @@ function App() {
   
   const picturesList = [
     {
-      link: picSuolijarvi,/* '../img/IMG_0214.png', */
+      link: picSuolijarvi,
       title: "Suolijärvi",
       description: "Lake Suolijärvi (Tampere, Finland) - 06.12.2023"
     },
     {
-      link: '../img/IMG_0115.png',
+      link: picSquirel,
       title: "Squirel",
       description: "Lake Suolijärvi (Tampere, Finland) - 06.12.2023"
     },
     {
-      link: '../img/IMG_0097.png',
+      link: picNorthernLights,
       title: "Northern lights",
       description: "Lake Suolijärvi (Tampere, Finland) - 11.05.2024"
     },
     {
-      link: '../img/IMG_0046.png',
+      link: picRauhaniemiSunset,
       title: "Rauhaniemi sunset",
       description: "Rauhaniemi (Tampere, Finland) - 22.06.2024"
     },
     {
-      link: '../img/IMG_0150.png',
+      link: picRauhaniemiGull,
       title: "Gull - Rauhaniemi sunrise",
       description: "Rauhaniemi (Tampere, Finland) - 22.06.2024"
     },
 
     {
-      link: '../img/IMG_0255.png',
+      link: picRauhaniemiSunrise,
       title: "Rauhaniemi sunrise",
       description: "Rauhaniemi (Tampere, Finland) - 22.06.2024"
     },
