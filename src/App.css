@@ -1,5 +1,14 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --dark: #0d1312;
+  --dark-grey: #0d1312bd;
+  --light-background: #a0d0cc;
+  --medium-background: #2c7f77;
+  --white: #e7e9e9;
 }
 
 
@@ -8,6 +17,28 @@
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+  float: left;
+  padding: 15px;
+}
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+
+/* Likely the minimal device width ever */
+@media only screen and (max-width: 240px) {
+  body {
+    border: 5px solid red;
+  }
 }
 
 /* For tablets */
@@ -42,50 +73,71 @@
 .col-d-12 {width: 100%;}
 }
 
-
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
-}
-
 .row::after {
   content: "";
   clear: both;
   display: table;
-  border: 10px solid green;
+  border: 10px solid red;
 }
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
 }
 
 /* --- */
 
 .header {
-  background-color: #a688fa;
-  color: #f2f2f2;
+  background-color: var(--light-background);
+  color: var(--dark);
   text-align: center;
   font-weight: bold;
   padding: 15px;
+}
+.header h4{
+  color: var(--dark-grey);
 }
 
 .content {
   padding: 15px;
 }
 
-.menu ul {
+.navbar {
+  background-color: var(--dark);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0;
+}
+.navbar-elt {
+  padding: 10px;
+  margin: 0 5px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+}
+.navbar-elt:hover {
+  background-color: var(--medium-background);
+}
+/* responsive layout - navbar on side instead of on top */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+  
+/*
+.navbar ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
-.menu li {
+.navbar li {
   background-color: rgb(108, 182, 211);
   padding: 15px;
   margin: 5px;
 }
+  */
 
 .side ul {
   list-style-type: none;

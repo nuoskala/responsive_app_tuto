@@ -10,18 +10,18 @@ function App() {
 
 
       <div className='header'>
-        <h1>Title of the page.</h1>
+        <h1>An awesome website</h1>
+        <h4>With responsive design</h4>
       </div>
 
       <div className='row'>
-        <div className='col-d-3 col-t-3 menu'>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+        <div className='col-d-12 col-t-12 col-m-12 navbar'>
+          <a href="#"className='navbar-elt'>Link 1</a>
+          <a href="#"className='navbar-elt'>Link 2</a>
+          <a href="#"className='navbar-elt'>Link 3</a>
+          <a href="#"className='navbar-elt'>Link 4</a>
+          <a href="#"className='navbar-elt'>Link 5</a>
+          <a href="#"className='navbar-elt'>Link 6</a>
         </div>
 
         <div className='col-d-6 col-t-9 content'>
