@@ -1,33 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  const loremIpsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis rutrum massa. Donec ut pharetra tellus. Morbi sed turpis nisl. Nullam lacinia suscipit tincidunt. Donec porta leo arcu. Nullam sit amet hendrerit eros. Vestibulum elementum iaculis neque, et mollis tortor pulvinar et. Nunc nec viverra massa. Donec pellentesque maximus justo, ut tempor erat aliquet eu. Sed faucibus cursus odio sodales porta. <br/>Proin neque risus, finibus vitae dolor in, dignissim finibus magna. Donec aliquet ipsum in libero dictum vestibulum. Nulla sit amet mollis nibh. In accumsan maximus blandit. Etiam varius ante libero, sed hendrerit nunc sollicitudin sit amet. Sed vulputate magna id sagittis venenatis. Phasellus mauris nisi, dapibus vel fringilla non, suscipit vel libero. Pellentesque sed maximus odio, vitae commodo nisl. Nunc sit amet aliquet augue, quis ultricies ante. "
+
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className='title'>Title of the page.</p>
+      <div className='square'></div>
+      <p className='content'>{loremIpsum}</p>
     </>
   )
 }
