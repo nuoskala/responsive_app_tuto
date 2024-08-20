@@ -20,7 +20,7 @@ function App() {
   
   const picturesList = [
     {
-      link: '../img/2023-12-06/IMG_0214.png',
+      link: './img/2023-12-06/IMG_0214.png',
       title: "Suolijärvi",
       description: "Lake Suolijärvi (Tampere, Finland) - 06.12.2023"
     },
