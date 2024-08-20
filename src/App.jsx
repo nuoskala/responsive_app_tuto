@@ -14,18 +14,28 @@ function App() {
       </div>
 
       <div className='row'>
-        <div className='col-3 side-menu'>
+        <div className='col-d-3 col-t-3 menu'>
           <ul>
-            <li>Element 1</li>
-            <li>Element 2</li>
-            <li>Element 3</li>
-            <li>Element 4</li>
-            <li>Element 5</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
         </div>
 
-        <div className='col-9 content'>
+        <div className='col-d-6 col-t-9 content'>
           <p>{loremIpsum}</p>
+        </div>
+
+        <div className='col-d-3 col-t-12 side'>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
 
 
