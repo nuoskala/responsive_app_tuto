@@ -1,6 +1,7 @@
 import './App.css'
 
 import picRevontulet from '../img/revontulet.png'
+import picSuolijarvi from '../img/IMG_0214.png'
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
   
   const picturesList = [
     {
-      link: '../img/IMG_0214.png',
+      link: picSuolijarvi,/* '../img/IMG_0214.png', */
       title: "Suolijärvi",
       description: "Lake Suolijärvi (Tampere, Finland) - 06.12.2023"
     },
