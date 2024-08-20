@@ -20,33 +20,33 @@ function App() {
   
   const picturesList = [
     {
-      link: './img/2023-12-06/IMG_0214.png',
+      link: '../img/IMG_0214.png',
       title: "Suolijärvi",
       description: "Lake Suolijärvi (Tampere, Finland) - 06.12.2023"
     },
     {
-      link: '../img/2023-12-06/IMG_0115.png',
+      link: '../img/IMG_0115.png',
       title: "Squirel",
       description: "Lake Suolijärvi (Tampere, Finland) - 06.12.2023"
     },
     {
-      link: '../img/2024-05-11/IMG_0097.png',
+      link: '../img/IMG_0097.png',
       title: "Northern lights",
       description: "Lake Suolijärvi (Tampere, Finland) - 11.05.2024"
     },
     {
-      link: '../img/2024-06-22/IMG_0046.png',
+      link: '../img/IMG_0046.png',
       title: "Rauhaniemi sunset",
       description: "Rauhaniemi (Tampere, Finland) - 22.06.2024"
     },
     {
-      link: '../img/2024-06-22/IMG_0150.png',
+      link: '../img/IMG_0150.png',
       title: "Gull - Rauhaniemi sunrise",
       description: "Rauhaniemi (Tampere, Finland) - 22.06.2024"
     },
 
     {
-      link: '../img/2024-06-22/IMG_0255.png',
+      link: '../img/IMG_0255.png',
       title: "Rauhaniemi sunrise",
       description: "Rauhaniemi (Tampere, Finland) - 22.06.2024"
     },
